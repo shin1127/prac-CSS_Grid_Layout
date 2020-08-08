@@ -1,0 +1,42 @@
+.containerA {
+  display: grid;
+  text-align: center;
+  border: solid;
+  grid-template-rows: 200px 100x;
+  grid-template-columns: 200px 200px;
+  grid-template-areas:
+    "areaA areaB"
+    "areaC areaD"
+    "areaE areaF"
+    "areaG areaH";
+
+  /* line-height: 40px; */
+}
+
+.midasi {
+  background-color: #99ff99;
+}
+
+.itemA {
+  grid-area: areaA;
+}
+
+.itemB {
+  grid-area: areaB;
+}
+
+.itemC {
+  grid-area: areaC;
+}
+
+.itemD {
+  grid-area: areaD;
+}
+
+.itemE {
+  grid-area: areaE;
+}
+
+.itemF {
+  grid-area: areaF;
+}
